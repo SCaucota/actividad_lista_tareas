@@ -1,0 +1,101 @@
+body {
+    background-color: #d79adf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.listaContainer {
+    width: auto;
+    height: auto;
+    padding: 5%;
+    border-radius: 43px;
+    background: #d79adf;
+    box-shadow: 35px 35px 70px #b984c0,
+        -35px -35px 70px #f5b0fe;
+}
+
+.agregarContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#inputIngreso{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: white solid 1px;
+}
+
+#botonAgregar{
+    width: 102%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.divContainerTarea{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+.tareas{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.divIcon{
+    display: flex;
+    align-items: center;
+}
+
+.eliminar{
+    background-color: black;
+    padding: 20%;
+    border-radius: 80%;
+    margin-left: 25%;
+}
+
+#eliminarLista{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 15% 0% 5% 0%;
+}
+
+#eliminarLista:hover{
+    background-color: red;
+    color: black;
+}
+
+#cambiarLista{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#cambiarLista:hover{
+    background-color: white;
+    color: black;
+}
